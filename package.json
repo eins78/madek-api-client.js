@@ -1,5 +1,5 @@
 {
-  "name": "node-madek-api",
+  "name": "madek-api-client.js",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "traverson": "^0.7.0",
-    "request": "^2.34.0",
     "halfred": "^0.2.0",
-    "eyes": "^0.1.8"
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "request": "^2.34.0",
+    "eyes": "^0.1.8",
+    "locus": "0.0.4"
   }
 }
